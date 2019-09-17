@@ -1,0 +1,27 @@
+{
+  "name": "swvl-notification-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "@types/faker": "^4.1.5",
+    "@types/i18n": "^0.8.6",
+    "@types/mongoose": "^5.5.17",
+    "@types/node": "^12.7.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "faker": "^4.1.0",
+    "graphql": "^14.5.6",
+    "i18n": "^0.8.3",
+    "mongoose": "^5.7.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ahmed elsayed",
+  "license": "ISC"
+}
