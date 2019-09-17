@@ -49,6 +49,7 @@ const RootQuery = new GraphQLObjectType({
             type: new GraphQLList(NotificationType),
             args: { id: { type: GraphQLID }},
             resolve(parent: any, args: any) {
+                // TODO Pagination
                 let promise = SWVLNotification
                     .find({
                         'recievers.id': args.id,

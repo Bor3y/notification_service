@@ -2,8 +2,9 @@ import i18n from "i18n";
 import Stop from "../objects/Stop";
 import User from "../objects/User";
 import BaseNotification from "./BaseNotification";
+import NotificationInterface from "./NotificationInterface";
 
-export default class AppStopIsNearNotification extends BaseNotification {
+export default class AppStopIsNearNotification extends BaseNotification implements NotificationInterface {
     stop: Stop;
     
     constructor(receivers: User[], data: any) {
