@@ -11,7 +11,7 @@ i18n.configure({
 });
 
 const app = express();
-mongoose.connect('mongodb://root:secret@localhost:27017/lol?authSource=admin');
+mongoose.connect('mongodb://root:secret@mongo:27017/lol?authSource=admin');
 
 const nofificationService = new NotificationService();
 nofificationService.init();
